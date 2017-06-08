@@ -1,0 +1,29 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "Mini Translator",
+  "description": "This extension translate the any content in one click or ctrl + ,",
+  "version": "1.0.0",
+  "version_name": "1.0.0 beta",
+
+	// Recommended
+  
+  "icons": {"16": "images/icon16.png",
+           	"48": "images/icon48.png",
+          	"128": "images/icon128.png"},
+	
+  "browser_action": {
+    "default_icon": "images/icon19.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"//,
+    //"https://ajax.googleapis.com/"
+  ],
+	
+	
+	// Optional
+  "author": "Ivan Fretes"
+}
+
